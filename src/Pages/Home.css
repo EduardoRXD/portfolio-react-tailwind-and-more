@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(30px);
+    }
+  }
+
+  @keyframes pop-fall {
+    0% {
+      transform: translate(0, 0) scale(1) rotate(0deg);
+      opacity: 1;
+    }
+
+    30% {
+      transform: translate(var(--offset-x), var(--offset-y)) scale(1.2) rotate(var(--rotate));
+      opacity: 1;
+    }
+
+    100% {
+      transform: translate(calc(var(--offset-x) * 1.5), calc(var(--offset-y) + 100px)) scale(0.5) rotate(calc(var(--rotate) * 2));
+      opacity: 0;
+    }
+  }
+}
+
+.animate-bounce {
+  animation: bounce 2s ease-in-out infinite alternate;
+}
+
+.animate-pop-fall {
+  animation: pop-fall 1.2s ease-out forwards;
+}
