@@ -13,7 +13,7 @@ Requirements:
 Setup Instructions:
 
 1. Clone the repository:
-   git clone https://github.com/EduardoRXD/Login-Page
+   git clone https://github.com/EduardoRXD/portfolio-react-tailwind-and-more
 
 2. Install dependencies with `npm install`
 
