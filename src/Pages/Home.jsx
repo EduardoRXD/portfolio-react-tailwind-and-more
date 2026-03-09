@@ -21,7 +21,7 @@ function Home() {
         <>
             <Navbar />
             <main>
-                <section className="top pt-25 px-[4%] py-5">
+                <section className="top pt-25 px-[4%] py-5" id="top">
                     <Interface>
                         <Flex>
                             <div className="text w-122 flex-1">
@@ -30,18 +30,18 @@ function Home() {
                             </div>
 
                             <div className="img flex-1 ml-auto max-w-109.5 relative">
-                                <img src="/img1.png" alt="" class="h-109.5 animate-bounce relative inline-block select-none " draggable="false" />
+                                <img src="/portfolio-react-tailwind-and-more/img1.png" alt="" class="h-109.5 animate-bounce relative inline-block select-none " draggable="false" />
                                 <EmojiClick />
                             </div>
                         </Flex>
                     </Interface>
                 </section>
 
-                <section class="About Me py-12.5 px-[4%]">
+                <section class="About Me py-12.5 px-[4%]" id="about">
                     <Interface>
                         <Flex>
                             <div class="image">
-                                <img src="/image.jpeg" class="min-h-214 min-w-157" alt="" />
+                                <img src="/portfolio-react-tailwind-and-more/image.jpeg" class="min-h-214 min-w-157" alt="" />
                             </div>
 
                             <div class="text">
@@ -59,7 +59,7 @@ function Home() {
                     </Interface>
                 </section>
 
-                <section class="Projects shadow-[0_0_30px_rgba(141,63,151,0.308)] py-15 px-[4%] ">
+                <section class="Projects shadow-[0_0_30px_rgba(141,63,151,0.308)] py-15 px-[4%]" id="projects">
                     <Interface>
                         <h2 class="font-bold text-[50px] text-center">Projects</h2>
                         <div class="text-right py-5"><TextButton text={"View All"} fontSize={"25px"} /></div>
@@ -67,7 +67,7 @@ function Home() {
                     </Interface>
                 </section>
 
-                <section class="Contact mt-27.5 ">
+                <section class="Contact mt-27.5 " id="contact">
                     <Interface>
                         <h2 class="font-bold text-[50px] text-center mb-8">Contact Me</h2>
 
@@ -88,7 +88,7 @@ function Home() {
                         <div class="pb-5">
                             <Flex> 
                                 <div class="logo">
-                                    <a href=""><img src="/Logo.png" alt="" /></a>
+                                    <a href=""><img src="/portfolio-react-tailwind-and-more/Logo.png" alt="" /></a>
                                 </div>
                                 <Flex gap={"0"}>
                                     <SocialMediaBtn link={"https://www.linkedin.com/in/eduardo-rodrigues-3802ba330/"} icon={"bi bi-linkedin"} />

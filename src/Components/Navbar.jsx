@@ -24,20 +24,20 @@ function Navbar() {
 
             <div className="Logo">
                 <a href="#">
-                    <img src="/Logo.png" alt="Logo" />
+                    <img src="/portfolio-react-tailwind-and-more/Logo.png" alt="Logo" />
                 </a>
             </div>
 
             <nav class="menu">
                 <ul>
-                    <li class="inline-block px-10"><TextButton text="Home" /></li>
-                    <li class="inline-block px-10"><TextButton text="About Me" /></li>
-                    <li class="inline-block px-10"><TextButton text="Projects" /></li>
+                    <li class="inline-block px-10"><TextButton text="Home" ref={"#top"}/></li>
+                    <li class="inline-block px-10"><TextButton text="About Me" ref={"#about"}/></li>
+                    <li class="inline-block px-10"><TextButton text="Projects" ref={"#projects"}/></li>
                 </ul>
             </nav>
 
             <div>
-                <a href="">
+                <a href="#contact">
                     <Button text="Contact Info" paddingX="px-10" paddingY="py-2" />
                 </a>
             </div>
