@@ -4,7 +4,7 @@ Made with React, TailwindCSS and more libraries coming soon...
 
 I created this project to study more about libraries and how to make a great and modular application
 
-You can see it for yourself at https://eduardorxd.github.io/portfolio-react-tailwind-and-more/
+You can see the compiled version at https://eduardorxd.github.io/portfolio-react-tailwind-and-more/
 
 Requirements:
 - Git
