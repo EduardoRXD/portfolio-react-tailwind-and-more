@@ -10,13 +10,7 @@ import ProjectsBtn from "../Components/ProjectsBtn"
 import Button from "../Components/Button"
 
 function Home() {
-    const [emojiDivs, setEmojiDivs] = useState([]);
-
-    const handleClick = (e) => {
-        const newEmoji = <EmojiClick key={emojiDivs.length} x={e.clientX} y={e.clientY} />;
-        setEmojiDivs([...emojiDivs, newEmoji]);
-    };
-
+    
     return (
         <>
             <Navbar />
@@ -62,7 +56,7 @@ function Home() {
                 <section class="Projects shadow-[0_0_30px_rgba(141,63,151,0.308)] py-15 px-[4%]" id="projects">
                     <Interface>
                         <h2 class="font-bold text-[50px] text-center">Projects</h2>
-                        <div class="text-right py-5"><TextButton text={"View All"} fontSize={"25px"} /></div>
+                        <div class="text-right py-5"><TextButton text={"View All"} fontSize={"25px"} ref={"#ViewAll"}/></div>
                         <ProjectsBtn />
                     </Interface>
                 </section>

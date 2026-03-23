@@ -1,5 +1,6 @@
 import { HashRouter, Routes, Route } from "react-router-dom"
 import Home from "./Pages/Home"
+import ViewAll from "./Pages/ViewAll"
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <Route path="/about" element={<Home />} />
         <Route path="/projects" element={<Home />} />
         <Route path="/contact" element={<Home />} />
+        <Route path="/ViewAll" element={<ViewAll />} />
       </Routes>
     </HashRouter>
   )
